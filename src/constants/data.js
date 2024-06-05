@@ -30,37 +30,25 @@ export const navMenu = [
 export const projects = [
     {
         title: 'WH Tech Solutions',
-        src: '/assets/images/projects/wh2.png',
+        src: '/assets/images/projects/image.png',
         altText: 'Screenshot of WHtechSolution home page',
         ariaLabel: "Opens modal window with more information about the WHtechSolution web project",
         details: {
-            description: "WHtech Solutions, nestled in the vibrant heart of London, stands as a beacon of innovation in the digital realm. As a dynamic tech company, we specialize in crafting bespoke digital solutions that empower businesses to thrive in the ever-evolving digital landscape. team's expertise spans a wide spectrum of cutting-edge technologies, including React, enabling us to engineer responsive and user-friendly web applications. With a passion for pushing the boundaries of what's possible in the digital world, WHtech Solutions is your trusted partner for turning visionary ideas into tangible, tech-driven realities. Join us on a journey where innovation knows no bounds.",
+            description: "Developed futurecareerlinks.com from scratch using Which is a job hunting Site , and connects students with employers.Implemented job postings, application management, meeting scheduling, and internal messaging features, resulting in a 50% increase in recruitment efficiency.",
             technologies: [
                 {
-                    title: 'HTML',
-                    Icon: Icons.HtmlIcon,
+                    title: 'NodeJS',
+                    Icon: Icons.NodeJSIcon,
                 },
                 {
-                    title: 'CSS',
-                    Icon: Icons.CSSIcon,
+                    title: 'MongoDB',
+                    Icon: Icons.MongoDBIcon,
                 },
                 {
-                    title: 'JavaScript',
-                    Icon: Icons.JavascriptIcon,
+                    title: 'Tailwind',
+                    Icon: Icons.TailwindCSSIcon,
                 },
-                {
-                    title: 'WordPress',
-                    Icon: Icons.WordPressIcon,
-
-                },
-                {
-                    title: 'PHP',
-                    Icon: Icons.PHPIcon,
-                },
-                {
-                    title: 'BackEnd',
-                    Icon: Icons.DatabaseIcon,
-                },
+                
                 {
                     title: 'jQuery',
                     Icon: Icons.JQueryIcon,
@@ -70,7 +58,7 @@ export const projects = [
                     Icon: Icons.APIIcon,
                 },
             ],
-            url: 'https://whtechsolutions.com/',
+            url: 'https://futurecareerlinks.com/',
             githubUrl: null,
         },
     },
@@ -84,7 +72,7 @@ export const projects = [
             technologies: [
                 {
                     title: 'HTML',
-                    Icon: Icons.HtmlIcon,
+                    Icon: Icons.ReactIcon,
                 },
                 {
                     title: 'CSS',
@@ -103,8 +91,8 @@ export const projects = [
                     Icon: Icons.PHPIcon,
                 },
                 {
-                    title: 'BackEnd',
-                    Icon: Icons.DatabaseIcon,
+                    title: 'SQL',
+                    Icon: Icons.SqlServerIcon,
                 },
             ],
             url: 'https://www.ideasfoundation.pk/',
@@ -120,23 +108,23 @@ export const projects = [
             description: "An online Marketplace to list classified ads for cars, they sell cars in Switzerland and i made a website for them. First it was on php now converting it into MERN stack.",
             technologies: [
                 {
-                    title: 'HTML',
-                    Icon: Icons.HtmlIcon,
+                    title: 'React',
+                    Icon: Icons.ReactIcon,
                 },
                 {
-                    title: 'CSS',
-                    Icon: Icons.CSSIcon,
+                    title: 'ExpressJS',
+                    Icon: Icons.ExpressJSIcon,
                 },
                 {
-                    title: 'JavaScript',
-                    Icon: Icons.JavascriptIcon,
+                    title: 'MongoDB',
+                    Icon: Icons.MongoDBIcon,
                 },
                 {
                     title: 'jQuery',
                     Icon: Icons.JQueryIcon,
                 },
             ],
-            url: "https://emagestore.com",
+            url: "https://eidcarosse.ch",
             githubUrl: "https://github.com/uzieee",
         },
     },
@@ -360,57 +348,39 @@ export const softSkills = [
 
 export const workExp = [
     {
-        company: 'Tech Sculpture',
-        location: 'Birmingham, United Kingdom ',
+        company: 'WH Tech Solutions',
+        location: 'London, United Kingdom ',
         positions: [
             {
-                title: 'Solution Engeenier',
-                startDate: new Date(2019, 9),
-                endDate: 'present',
-            },
-        ],
-        tasks: [
-            "Collaborate directly with clients to gather project requirements, provide regular updates, and deliver solutions that tailored to their specific needs",
-            "Conduct competitor analysis to identify clients' opportunities for differentiation and growth",
-            "Leverage strong problem-solving skills to troubleshoot and resolve technical challenges, resulting in seamless and functional websites",
-            "Demonstrate expertise in designing custom WordPress themes and plugins, enhancing website functionality and user interactivity",
-        ],
-    },
-    {
-        company: 'Eidcarosse',
-        location: 'Zurich , Switzerland',
-        positions: [
-            {
-                title: 'Full Stack Developer',
+                title: 'Software Engeenier',
                 startDate: new Date(2023, 6),
                 endDate: 'present',
             },
         ],
         tasks: [
-            "Designed semantically structured and responsive websites for mobile and desktop devices",
-            "Collaborated with a team of developers to construct full-stack web applications",
-            "Utilized agile methodologies such as SCRUM for project management",
+            "Django Development: Led the development of multiple Django projects, ensuring robust and efficient backend solutions, which resulted in a 40% increase in system performance and a 25% reduction in server response time",
+            "Supervised many projects, including NGTU (ngtu.com), providing technical inputs, project timelines, and delivering projects 20% faster than scheduled.",
+            "Portfolio Site Development: Designed and maintained the portfolio site for WHTechSolutions, increasing client engagement by 35% and showcasing the company’s capabilities and completed projects.",
+            "API Integration: Developed and integrated RESTful APIs for seamless communication between various systems, reducing integration time by 30%",
         ],
     },
     {
         company: 'Centangle Interactive',
-        location: 'Islamabad, Pakistan',
+        location: 'Islamabad , Pakistan',
         positions: [
             {
-                title: 'Data Analysis Intern',
+                title: 'Web Developer',
                 startDate: new Date(2022, 6),
-                endDate: new Date(2022, 9),
+                endDate: new Date(2022, 12),
             },
         ],
         tasks: [
-            "Worked as a Data Analysis Intern at Centangle Interactive , and worked with many tools",
-            "Worked with the team of 20 people which horns my interpersonal and collaborative skils.",
-            "Provided technical support for remote production sites to facilitate the completion of device configurations",
-            "Collaborated with a small team to improve processes",
-            "Worked on PowerBI and othere analysis tools to provide statistical analysis to the sales team",
-            "Wrote  queries for statistical analysis",
+            "Backend Systems Development: Utilized Django to create and maintain backend services, ensuring efficient data management and secure operations, leading to a 20% improvement in data processing speed.",
+            "Frontend Interfaces: Employed React.js to develop dynamic and user-friendly web interfaces, improving user satisfaction by 30%",
+            "Full-Stack Development: Delivered end-to-end solutions using MongoDB, Express.js, React.js, and Node.js, which increased overall system efficiency by 25%.",
         ],
     },
+    
 ];
 
 export const extracurriculars = [
