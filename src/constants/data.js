@@ -348,13 +348,32 @@ export const softSkills = [
 
 export const workExp = [
     {
+        company: 'QLU.ai',
+        location: 'Bay Area, San Francisco',
+        positions: [
+            {
+                title: 'Full Stack Engineer',
+                startDate: new Date(2024, 6), // July 2024
+                endDate: 'present',
+            },
+        ],
+        tasks: [
+            "Developed an AI-powered SaaS recruitment platform that processed 60M+ executive profiles, reducing hiring time by 95% (from 6 weeks to 30 minutes) and achieving an 85% successful conversion rate through intelligent candidate matching.",
+            "Normalized and optimized PostgreSQL database schema, resulting in 40% faster data operations.",
+            "Redesigned the frontend from React.js to Next.js in TypeScript and used React Query for efficient caching.",
+            "Re-designed the AI Search Architecture in people search, reducing the profile retrieval time from 5 minutes to almost 40 seconds.",
+            "Integrated several third-party services like Twilio for outbound calls and Stripe for seamless payments.",
+            "Contributed to the development of an npm UI library for frontend developers.",
+        ],
+    },
+    {
         company: 'WH Tech Solutions',
         location: 'London, United Kingdom ',
         positions: [
             {
                 title: 'Software Engeenier',
                 startDate: new Date(2023, 6),
-                endDate: 'present',
+                endDate: new Date(2024, 6),
             },
         ],
         tasks: [
